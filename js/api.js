@@ -9,6 +9,6 @@ function status (response) {
 function json (response) {
   return response.json();
 }
-function error (error){
+function error(error){
   console.log("Error : " + error);
 }
